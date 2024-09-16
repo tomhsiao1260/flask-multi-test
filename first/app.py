@@ -8,4 +8,4 @@ CORS(app)
 def hello_world():
     return 'Hello, World!'
 
-app.run(host="0.0.0.0", port=8734)
+app.run(host="0.0.0.0", port=1234)

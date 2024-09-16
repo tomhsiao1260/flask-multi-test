@@ -3,8 +3,8 @@
 Virtual environment
 
 ```bash
-conda create --name flask-test
-conda activate flask-test
+conda create --name flask-app-2
+conda activate flask-app-2
 conda install pip
 ```
 
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Run App
 
-local server http://127.0.0.1:8734
+local server http://127.0.0.1:1235
 
 ```bash
 python app.py
