@@ -1,3 +1,4 @@
+import requests
 from flask import Flask
 from flask_cors import CORS
 
@@ -6,6 +7,8 @@ CORS(app)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    response = requests.get('http://127.0.0.1:1235')
+    return response.text
+    # return 'Hello, World!'
 
-app.run(host="0.0.0.0", port=1234)
+app.run(host="0.0.0.0", port=1234, debug=True)

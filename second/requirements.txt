@@ -1,2 +1,10 @@
-Flask
-Flask-Cors
+numba
+numpy
+scipy
+scikit-image
+scikit-learn
+trimesh
+tqdm
+matplotlib
+pyvista
+pynrrd
